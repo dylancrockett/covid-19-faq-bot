@@ -1,1 +1,1 @@
-faq_bot
+This repository contains a basic COVID-19 FAQ bot. The bot is able to parse questions asked and give a response given the question's similarity to other questions on the CDC's COVID-19 FAQ. The faq.json contains the CDC FAQ in "question": "answer" format. If the requirements are installed then the main file can be run to give a basic terminal interface for the bot. The faq_bot.py contains a FAQBot class which provids a basic interface for matching a user question with one of the CDC FAQ responses.
